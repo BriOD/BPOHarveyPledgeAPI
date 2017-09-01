@@ -1,6 +1,7 @@
 class Api::PledgersController < ApplicationController
 
-    before_action :set_pledger, :only: [:show, :update, :destroy]
+    before_action :set_pledger, only: [:show, :update, :destroy]
+
     def index
         render json: Pledger.all
     end
@@ -26,7 +27,7 @@ class Api::PledgersController < ApplicationController
         end
     end
 
-    def :destroy
+    def destroy
         if @pledger.destroy 
             render status: 204
         else
