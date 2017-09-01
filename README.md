@@ -1,24 +1,21 @@
-# README
+# Routes I want:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# GET /api/pledgers
+# GET /api/plegers/:id
+# POST /api/pledgers
+# PUT /api/pledgers/:id
 
-Things you may want to cover:
 
-* Ruby version
+# Pleger Model:
 
-* System dependencies
+# first_name
+# last_name
+# percent_pledging
+# has_many results
 
-* Configuration
+# Results Model:
 
-* Database creation
+# date
+# tourney
+# cashed_for
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
